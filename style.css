@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+* h1,h3,h2{
+  font-weight: bolder;
+  color: #be1300;
+}
+
+p{
+    font-weight: 600;
+}
+
+button{
+    border: 1px solid #e84f3d;
+    background-color: #e84f3d;
+    padding: 10px;
+    width: 145px;
+    /* font-weight: bold; */
+    color: #fff;
+}
+
+button:hover{
+    background-color: #fff;
+    border: 1px solid #e84f3d;
+    color: #e84f3d;
+    transition: 0.3s;
+    font-weight: bolder;
+}
+
+/*-----------------------------------------------Navbar Css -----------------------------------------------*/
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 9999;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+    padding-bottom: 0px;
+}
+.logo-img{
+    width: 92px;
+}
+
+.navbar-nav .link-nav {
+    padding-top: 18px;
+    color: primary;
+}
+
+.navbar-nav a{
+    font-weight:bold ;
+    margin: 5px;
+    color: #e84f3d;
+}
+
+nav span img{
+    width: 30px;
+}
+
+
+/*----------------------------------------------Banner section------------------------------------------*/
+.top-banner{
+    width: 100%;
+    background: url(images/bg/bg-1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 8.1rem 0 11.1rem;
+}   
+
+.top-banner button{
+    padding: 10px;
+    margin-right: 27px;
+}
+
+.top-banner .second-btn{
+    color: black;
+    background-color: #fff;
+}
+
+.top-banner .second-btn:hover{
+    background-color: #e84f3d;
+    color: #fff;
+    font-weight: 400;
+}
+
+/*----------------------------------Counter Section---------------------------------*/
+#counter{
+    background-color: #e84f3d;
+    color: #fff;
+    text-align: center;
+}
+#counter .row{
+    margin-right: 0;
+    padding: 10px;
+}
+
+#counter h3{
+    color: #fff;
+}
+#counter p{
+    margin-bottom: 0;
+}
+
+/*------------------------------------------------About us section----------------------------*/
+#about_us img{
+    width: 100%;
+    height: 50%;
+}
+
+#about_us .rounded{
+    border-radius: 1.25rem!important;
+}
+
+#about_us .row{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+#about_us ul{
+    list-style-type: none;
+}
+
+
+/*--------------------------------------------------Story Section---------------------------------*/
+#story .bg-img{
+    background:url(images/bg/bg-4.webp) no-repeat center ;
+    background-size:cover;
+}
+
+#story h1{
+    color: #ffffff;
+    opacity: 1;
+}
+
+#story .container{
+    text-align: center;
+    padding: 100px 15%;
+}
+
+
+
+/*--------------------------------------------Explore foods section-----------------------*/
+#explore .card{
+    border: none;
+}
+
+#explore img{
+    height: 190px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+#explore .container .card{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#explore .card-title{
+    color: #a82112;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+#explore .price{
+    display: inline;
+    color: #089914;
+}
+
+#explore .old-price{
+    display: inline;
+    text-decoration: line-through;
+    color: gray;
+}
+
+/*--------------------------------------Testimoinal section---------------------------*/
+#testimonial {
+    text-align: center;
+}
+
+#testimonial button{
+    border: none;
+}
+
+#testimonial h2{
+    color: #fff;
+}
+
+
+#testimonial p{
+    color: #fff;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+#testimonial .container-fluid{
+    background-color: #e84f3d;
+}
+
+#testimonial img{
+    width: 130px;
+    border-radius: 100%;
+}
+
+#testimonial .carousel-inner{
+    background-color: #e84f3d;
+    padding: 50px;
+}
+
+
+/*---------------------------------------------FAQ Section------------------------------------*/
+
+#faq h2{
+    font-weight: bolder;
+    color: #e84f3d;
+}
+#faq .query{
+    color:#be1300;
+    font-weight: bold;
+}
+
+/*---------------------------------------Parallax section-----------------------------------*/
+#parallax .book-food{
+    background: url("images/bg/bg-fin.jpg") no-repeat center;
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+    padding: 10px;
+}
+
+#parallax h2{
+    color: #fff;
+    font-weight: bolder;
+}
+
+#parallax .container{
+    padding: 5%;
+}
+
+/*-----------------------------------Contact Form Section---------------------------------------*/
+
+#contact_form h2{
+    color: #e84f3d;
+    font-weight: bolder;
+}
+#contact_form .contact{
+    padding: 30px 15px;
+    text-align: center;
+}
+
+#contact_form input{
+    box-sizing: border-box;
+    padding: 7px;
+    height: 45px;
+    width: 35%;
+}
+#contact_form .newsletter {
+    width: 55%;
+    margin: 0 auto;
+}
+#contact_form .newsletter .email{
+    width: 100%;
+}
+
+#contact_form button{
+    width: 100%;
+}
+
+@media screen and (max-width :767px){
+    #contact_form button{
+        margin-top: 1rem;
+    }
+}
+/*-------------------------------------Footer Section ------------------------------------------*/
+#footer_section .footer{
+    
+    background-color: #e84f3d;
+    height: 220px;
+    color: #fff;
+}
+
+#footer_section a{
+    color: #fff;
+    text-decoration: none;
+}
